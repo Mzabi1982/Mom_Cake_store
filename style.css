@@ -1,0 +1,44 @@
+
+:root {
+    --mainPink: #ef7998;
+    --mainYellow: rgb(249, 228, 148);
+    --mainWhite: #fff;
+    --mainBlack: #000;
+    --yellowTrans: rgba(249, 228, 148, 0.5);
+    --mainGrey: rgb(238, 238, 238);
+}
+
+*{
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  font-size: 23px;
+}
+  
+body {
+font-family: "Kaushan Script", cursive;
+background: var(--mainWhite);
+color: var(--mainBlack);
+font-family: 'Indie Flower', cursive;
+
+}
+
+      /* nav link*/
+.navbar-toggler{
+outline: none !important;
+}
+
+.toggler-icon{
+  font-size: 3.5rem;
+  color:var(--mainPink);
+
+}
+
+.nav-link{
+  color:var(--mainPink);
+  transition: all 1s ease-in-out;
+}
+
+.nav-link:hover{
+  color:var(--mainBlack)
+}
+  
