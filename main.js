@@ -3,3 +3,11 @@ document.getElementById("cart-info").addEventListener("click", function() {
     cart.classList.toggle("show-cart");
     console.log(cart);
   });
+  const cart_info=document.querySelector('.cart-info');
+  const cart=document.querySelector('.cart');
+  let val=true;
+  cart_info.addEventListener('click',()=>{
+
+     if (val){cart.style.opacity="1"; val=false}
+      else {cart.style.display="none"}
+  })

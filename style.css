@@ -54,6 +54,7 @@ outline: none !important;
   color:var(--mainBlack);
   cursor: pointer;
   transition: all .7s ease-out;
+  
 }
 
 .cart-info{
@@ -63,6 +64,7 @@ outline: none !important;
   padding: .1rem .6rem;
   cursor: pointer;
   transition: all .7s ease-out;
+  
 
 }
 
@@ -76,7 +78,7 @@ outline: none !important;
 }
 
 #one{
-  background: url('images/one.jpeg') no-repeat center center / cover;
+  background: url('images/main.jpg') no-repeat center center / cover;
   height: 100vh;
   width: 100;
   display: flex;
@@ -85,6 +87,7 @@ outline: none !important;
   text-align: center;
   position: relative;
   background-attachment: fixed;
+  position: relative;
   
 }
 #one:before{
@@ -351,3 +354,110 @@ outline: none !important;
    background-color: var(--mainPink);
    color:var(--mainWhite);
  }
+
+ #footer{
+   width: 100%;
+   overflow: hidden;; 
+   display: flex;
+   flex-direction: row;
+
+ }
+
+ .footer1{
+   background: var(--mainBlack);
+   color:var(--mainWhite);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+   padding: 3rem 0px;
+ }
+
+ .footer1 h1{
+   color:var(--mainPink);
+   font-weight: bold;
+   font-size: 4rem;
+   padding-bottom: .3rem;
+   
+   
+
+ }
+
+
+ .social{
+   display: flex;
+ }
+ .social i{
+   font-size: 1.5rem;
+   margin-right: 3rem;
+   transition: all .3s ease-in-out
+ }
+ .social i:hover{
+   color:var(--mainPink);
+   cursor: pointer;
+
+ }
+ .footer2{
+   background-color: var(--mainGrey);
+   padding-top: 4.3rem;
+  
+   
+ }
+
+ .contact{
+   text-align: left;
+   width: 60%;
+   margin: auto;
+ }
+ .contact p {
+   transition: all .3s ease-in-out;
+ }
+
+ .contact p:hover{
+  color:var(--mainPink);
+  cursor: pointer;
+ }
+
+ .cart{
+   position: absolute;
+   background-color: var(--mainGrey);
+   width: 15rem;
+   text-align: left;
+   top:0;
+   right: 0;
+   z-index: 4;
+   padding: .5rem;
+   opacity: .8;
+   transition: all 1s ease-in-out;
+   border-bottom-left-radius: 10px;
+   opacity: 0;
+   
+ }
+ .cart-item,  .cart-total{
+   display: flex;
+ }
+ .cart-total h5:nth-child(1),.cart-total h5:nth-child(1){
+   flex:1
+ }
+ .fa-trash{
+   color:var(--mainPink)
+ }
+
+ #clear-card{
+   text-decoration: none;
+   padding: .1rem .3rem;
+   color:var(--mainBlack);
+   text-align: center;
+   border:1px solid var(--mainBlack);
+   font-weight: bold;
+   transition: all .4s ease-in-out
+
+ }
+ #clear-card:hover{
+   color:var(--mainWhite);
+   background-color: var(--mainPink);
+   cursor: pointer;
+ }
+
+
