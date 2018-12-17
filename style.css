@@ -21,6 +21,14 @@ color: var(--mainBlack);
 font-family: 'Indie Flower', cursive;
 
 }
+#header{
+  position: relative;
+}
+
+nav{
+  height: 100px;
+  position: fixed;
+}
 
       /* nav link*/
 .navbar-toggler{
@@ -41,4 +49,150 @@ outline: none !important;
 .nav-link:hover{
   color:var(--mainBlack)
 }
+
+.cart-info_icon{
+  color:var(--mainBlack);
+  cursor: pointer;
+  transition: all .7s ease-out;
+}
+
+.cart-info{
+  border: .1rem solid var(--mainBlack);
+  color:var(--mainBlack);
+  border-radius: .25rem;
+  padding: .1rem .6rem;
+  cursor: pointer;
+  transition: all .7s ease-out;
+
+}
+
+.cart-info:hover {
+  background: var(--mainPink);
+  border-color: var(--mainBlack);
+  color:var(--mainWhite)
+}
+.cart-info:hover .cart-info_icon{
+  color:var(--mainWhite)
+}
+
+#one{
+  background: url('images/one.jpeg') no-repeat center center / cover;
+  height: 100vh;
+  width: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  background-attachment: fixed;
+  
+}
+#one:before{
+  content: "";
+  position: absolute;
+  background: var(--mainPink);
+  opacity: 0.5;
+  width: 100%;
+  height: 100vh;
+}
+
+#one .container{
+  position: relative;
+  z-index: 3;
+}
+#mom{
+  font-size: 4rem;
+  color:rgb(124, 64, 64);
+}
+
+#one .container h1{
+  font-size: 4rem;
+  text-transform: capitalize;
+}
+
+#btn1{
+  text-decoration: none;
+  color: var(--mainBlack);
+  padding: 0px 2rem;
+  border:2px solid var(--mainBlack);
+  text-transform: capitalize;
+  font-size: 2rem;
+  transition: all .6s ease-in-out;
+  background: none;
+  cursor: pointer;
+}
+
+#btn1:hover{
+  color: var(--mainWhite);
+ background-color: var(--mainBlack);
+ opacity: .5;
+
+
+}
+
+#tow{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  padding: 2rem 0px;
+}
+
+#row1{
+  padding: 2rem 1rem;
+  
+  
+}
+
+#row1 .container{
+  text-align: left
+}
+
+#btn2{
+  text-decoration: none;
+  padding: 0px 2rem;
+  border:2px solid var(--mainBlack); 
+  text-transform: capitalize;
+  color:var(--mainBlack);
+  float: left;
+  transition: all .6s ease-in-out; 
+  
+  
+}
+
+#btn2:hover{
+   color: var(--mainWhite);
+   background: var(--mainPink);
+}
+
+.about_image{
+  position: relative;
+}
+.about_image img{
+  width: 100%;
+}
+
+
+
+
+.about_image::before{
+  content: "";
+  position: absolute;
+  
+  top:-1.5rem;
+  left: -1.5rem;
+ 
+  width: 100%;
+  height: 100%;
+  outline: .3rem solid var(--mainYellow);
+  z-index: -1;
+  transition: all .7s ease-in-out;
+}
+
+
+.about_image:hover:before{
+  top:0rem;
+  left: 0rem;
+ 
+}
+
   
