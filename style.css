@@ -100,7 +100,7 @@ outline: none !important;
   position: relative;
   z-index: 3;
 }
-#mom{
+.mom{
   font-size: 4rem;
   color:rgb(124, 64, 64);
 }
@@ -135,6 +135,7 @@ outline: none !important;
   padding: 0;
   margin: 0;
   padding: 2rem 0px;
+  
 }
 
 #row1{
@@ -147,7 +148,7 @@ outline: none !important;
   text-align: left
 }
 
-#btn2{
+.btn2{
   text-decoration: none;
   padding: 0px 2rem;
   border:2px solid var(--mainBlack); 
@@ -159,9 +160,10 @@ outline: none !important;
   
 }
 
-#btn2:hover{
+.btn2:hover{
    color: var(--mainWhite);
    background: var(--mainPink);
+   text-decoration: none;
 }
 
 .about_image{
@@ -195,4 +197,123 @@ outline: none !important;
  
 }
 
+#store{
+ 
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ text-align: center;
+
+ position: relative;
+ background-color: var(--mainGrey);
+ padding: 2rem;
+ 
+}
+
+#store .row{
+  width: 90%;
+  margin: auto;
+}
+
+ .list{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   
+
   
+ }
+
+ .list li a{
+   margin: .7rem;
+ }
+ form{
+   
+   margin: 2rem;
+ }
+#search-icon{
+  background-color: var(--mainPink);
+  color:var(--mainWhite);
+}
+
+.single-item{
+  transition:  all 1s linear
+}
+
+.single-item:hover{
+  box-shadow: 0 10px 15px rgb(0,0,0);
+}
+.img-container{
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.store-image{
+  transition: all 1s ease-in-out;
+  width: 300px;
+  height: 300px;
+  
+}
+
+.img-container:hover .store-image{
+  transform: scale(1.2);
+}
+
+
+.store-item-icon{
+  position: absolute;
+  bottom:0;
+  right:0;
+  padding: .3rem;
+  border-top-left-radius: 15%;
+  background-color: var(--mainYellow);
+  color:var(--mainBlack);
+  border:.3rem solid var (var(--mainBlack));
+  transition: all 1s ease-in-out;
+  transform: translate(100%,100%);
+  
+}
+
+.img-container:hover .store-item-icon{
+  transform: translate(0,0);
+}
+
+.store-item-icon:hover{
+  color:var(--mainWhite)
+}
+
+#services{
+  width: 100%;
+  background: url('/images/makin.jpeg') no-repeat center center / cover;
+  position: relative;
+  height: 100%;
+}
+
+#services:before{
+  content: "";
+  position: absolute;
+  background: var(--mainBlack);
+  opacity: 0.7;
+  width: 100%;
+  background-attachment: fixed;
+  height: 100%;
+
+  
+}
+
+#services .row{
+  padding: 2rem 3rem;
+  color: var(--mainWhite);
+}
+#services .row .container{
+  width: 90%;
+}
+
+
+.serv{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 2rem;
+
+}
