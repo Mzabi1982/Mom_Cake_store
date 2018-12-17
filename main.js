@@ -8,6 +8,9 @@ document.getElementById("cart-info").addEventListener("click", function() {
   let val=true;
   cart_info.addEventListener('click',()=>{
 
-     if (val){cart.style.opacity="1"; val=false}
+     if (val){
+       cart.style.opacity="1";
+       cart.classList.add("rotate");
+        val=false;}
       else {cart.style.display="none"}
   })

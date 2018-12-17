@@ -1,4 +1,3 @@
-
 :root {
     --mainPink: #ef7998;
     --mainYellow: rgb(249, 228, 148);
@@ -9,16 +8,20 @@
 }
 
 *{
-  font-family: 'Indie Flower', cursive;
+
   font-weight: bold;
   font-size: 23px;
+  font-family: 'Merienda', cursive;
+
+
+}
+html{
+  scroll-behavior: smooth;
 }
   
 body {
-font-family: "Kaushan Script", cursive;
 background: var(--mainWhite);
 color: var(--mainBlack);
-font-family: 'Indie Flower', cursive;
 
 }
 #header{
@@ -50,10 +53,14 @@ outline: none !important;
   color:var(--mainBlack)
 }
 
+
 .cart-info_icon{
   color:var(--mainBlack);
   cursor: pointer;
   transition: all .7s ease-out;
+  width: 100%;
+  padding-left: .4rem;
+  
   
 }
 
@@ -123,6 +130,7 @@ outline: none !important;
   transition: all .6s ease-in-out;
   background: none;
   cursor: pointer;
+  
 }
 
 #btn1:hover{
@@ -233,6 +241,9 @@ outline: none !important;
  form{
    
    margin: 2rem;
+ }
+ .input-group-prepend{
+outline: none !important;
  }
 #search-icon{
   background-color: var(--mainPink);
@@ -422,7 +433,7 @@ outline: none !important;
  .cart{
    position: absolute;
    background-color: var(--mainGrey);
-   width: 15rem;
+   width: 16rem;
    text-align: left;
    top:0;
    right: 0;
@@ -433,6 +444,9 @@ outline: none !important;
    border-bottom-left-radius: 10px;
    opacity: 0;
    
+ }
+ .rotate{
+   transform: rotateY(-360deg)
  }
  .cart-item,  .cart-total{
    display: flex;
@@ -451,7 +465,8 @@ outline: none !important;
    text-align: center;
    border:1px solid var(--mainBlack);
    font-weight: bold;
-   transition: all .4s ease-in-out
+   transition: all .4s ease-in-out;
+   margin: .3rem;
 
  }
  #clear-card:hover{
