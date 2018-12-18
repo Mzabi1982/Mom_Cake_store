@@ -30,17 +30,21 @@ color: var(--mainBlack);
 
 
 #header{
+   height: auto;
+   padding: -1rem;
   
-  height: 90px;
-  position: relative;
 }
 #nav{
-  height: 90px;
+  height: auto;
   position: fixed;
   left:0;
   right:0;
   z-index: 7;
   transition: all .4s ease-in-out;
+  background-color: rgba(0,0,0,0.7);
+
+
+  
  
 }
 
@@ -76,7 +80,7 @@ outline: none !important;
   transition: all .7s ease-out;
   width: 100%;
   padding-left: .4rem;
-  
+  color: var(--mainWhite)
   
 }
 
@@ -87,6 +91,8 @@ outline: none !important;
   padding: .1rem .6rem;
   cursor: pointer;
   transition: all .7s ease-out;
+  color: var(--mainWhite)
+
   
 
 }
@@ -125,13 +131,21 @@ outline: none !important;
 #one .container{
   position: relative;
   z-index: 3;
+  top:30%;
+  margin-bottom: 3rem;
 }
+
+
 .mom{
   font-size: 4rem;
   color:var(--mainPink)
+
 }
 
+
+
 #one .container h1{
+  
   font-size: 4rem;
   text-transform: capitalize;
 }
@@ -366,6 +380,10 @@ outline: none !important;
  #orders{
    padding: 2rem;
  }
+ #orders h2{
+   padding-bottom: 1.5rem;
+   padding-top: -.5rem;
+ }
 
  #orders .btn{
    text-decoration: none;
@@ -446,14 +464,18 @@ outline: none !important;
   color:var(--mainPink);
   cursor: pointer;
  }
+ #tel,.fa-phone{
+   color: var(--mainWhite);
+ }
 
  .cart{
-   position: absolute;
+   position: relative;
    background-color: var(--mainGrey);
    width: 16rem;
    text-align: left;
-   top:0;
-   right: 0;
+   top:-26%;
+   left:73.9%;
+   
    z-index: 4;
    padding: .5rem;
    opacity: .8;
@@ -492,10 +514,10 @@ outline: none !important;
    cursor: pointer;
  }
 
+
  .shrink{
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.9);
 }
-.change{
-  color:var(--mainWhite)
-}
+
+
 
