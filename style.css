@@ -215,6 +215,14 @@ outline: none !important;
   width: 100%;
 }
 
+#white{
+  color:var(--mainBlack);
+  transition: all .5s ease-in-out
+}
+
+#white:hover{
+ color:var(--mainPink);
+}
 
 
 

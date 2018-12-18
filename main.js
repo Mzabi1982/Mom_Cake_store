@@ -35,7 +35,7 @@ document.getElementById("cart-info").addEventListener("click", function() {
 window.sr = ScrollReveal();
 
 
-  sr.reveal('#services div,#one .container', {
+  sr.reveal('#services div', {
     duration: 2000,
     origin:'bottom',
     distance:'300px'
@@ -55,7 +55,7 @@ window.sr = ScrollReveal();
   
   });
 
-  sr.reveal('#orders div,nav', {
+  sr.reveal('#orders div,nav,#one .container', {
     duration: 2000,
     origin:'top',
     distance:'300px'
