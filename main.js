@@ -1,3 +1,6 @@
+
+$(document).ready(function() {
+
 document.getElementById("cart-info").addEventListener("click", function() {
     const cart = document.getElementById("cart");
     cart.classList.toggle("show-cart");
@@ -14,3 +17,49 @@ document.getElementById("cart-info").addEventListener("click", function() {
         val=false;}
       else {cart.style.display="none"}
   })
+
+  $(window).scroll(function(){
+    if($(document).scrollTop() > 50){
+        $('#nav').addClass('shrink');
+        $('.nav-info-tems,.cart-info i').addClass('change');
+     
+    } else {
+        $('#nav').removeClass('shrink');
+    }
+
+
+  
+window.sr = ScrollReveal();
+
+
+  sr.reveal('#services div,#one .container', {
+    duration: 2000,
+    origin:'bottom',
+    distance:'300px'
+  
+  });
+
+  sr.reveal('.footer1,#row1', {
+    duration: 2000,
+    origin:'left',
+    distance:'300px'
+  
+  });
+  sr.reveal('.footer2, #row2', {
+    duration: 2000,
+    origin:'right',
+    distance:'300px'
+  
+  });
+
+  sr.reveal('#orders div,nav', {
+    duration: 2000,
+    origin:'top',
+    distance:'300px'
+  
+  });
+
+  
+
+  })
+})
