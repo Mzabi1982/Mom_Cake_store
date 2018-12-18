@@ -26,11 +26,12 @@ color: var(--mainBlack);
 }
 #image{
   border-radius: 50%;
+  margin: -1rem;
 }
 
 
 #header{
-   height: auto;
+   
    padding: -1rem;
   
 }
@@ -41,7 +42,7 @@ color: var(--mainBlack);
   right:0;
   z-index: 7;
   transition: all .4s ease-in-out;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.4);
 
 
   
@@ -65,7 +66,7 @@ outline: none !important;
 }
 
 .nav-link:hover{
-  color:var(--mainBlack)
+  color:var(--mainWhite)
 }
 
 #sandwich i{
@@ -473,7 +474,7 @@ outline: none !important;
    background-color: var(--mainGrey);
    width: 16rem;
    text-align: left;
-   top:-26%;
+   top:-25%;
    left:73.9%;
    
    z-index: 4;
@@ -516,7 +517,8 @@ outline: none !important;
 
 
  .shrink{
-  background-color: rgba(0,0,0,0.9);
+  background-color:black!important;
+  
 }
 
 

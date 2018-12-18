@@ -20,17 +20,16 @@ document.getElementById("cart-info").addEventListener("click", function() {
 
  
 
-
   $(window).scroll(function(){
     if($(document).scrollTop() > 100){
-        $('#nav').addClass('shrink');
+        $('.navbar').addClass('shrink');
+        //$('#link').addClass('shrink2');
      
     } else {
-        $('#nav').removeClass('shrink');
+        $('.navbar').removeClass('shrink');
     }
 });
-
-   
+ 
 
   
 window.sr = ScrollReveal();
