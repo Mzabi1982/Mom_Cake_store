@@ -19,12 +19,13 @@ document.getElementById("cart-info").addEventListener("click", function() {
   })
 
   $(window).scroll(function(){
-    if($(document).scrollTop() > 50){
+    if($(document).scrollTop() > 100){
         $('#nav').addClass('shrink');
         $('.nav-info-tems,.cart-info i').addClass('change');
      
     } else {
         $('#nav').removeClass('shrink');
+        $('.nav-info-tems,.cart-info i').removeClass('change');
     }
 
 
