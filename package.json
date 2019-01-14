@@ -1,0 +1,22 @@
+{
+  "name": "grandma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mzabi1982/Mom_Cake_store.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mzabi1982/Mom_Cake_store/issues"
+  },
+  "homepage": "https://github.com/Mzabi1982/Mom_Cake_store#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}

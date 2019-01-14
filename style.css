@@ -180,6 +180,8 @@ outline: none !important;
   
 }
 
+
+
 #row1{
   padding: 2rem 1rem;
   
@@ -415,7 +417,8 @@ outline: none !important;
    width: 100%;
    overflow: hidden;; 
    display: flex;
-   flex-direction: row;
+   flex-wrap: wrap;
+   
 
  }
 
@@ -426,8 +429,10 @@ outline: none !important;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   
+   flex:1;
    padding: 3rem 0px;
+   
+   
  }
 
  .footer1 h1{
@@ -437,12 +442,14 @@ outline: none !important;
    padding-bottom: .3rem;
    
    
+   
 
  }
 
 
  .social{
    display: flex;
+   margin-left: 3rem; 
  }
  .social i{
    font-size: 1.5rem;
@@ -458,6 +465,7 @@ outline: none !important;
    background-color: var(--mainGrey);
    padding-top: 4.3rem;
   
+   flex:1;
    
  }
 
@@ -530,11 +538,31 @@ outline: none !important;
   
 }
 
+#grand{
+  font-size: 3rem;
+}
 
-@media screen and (max-width:700px){
-  #btn1{
-    visibility: hidden;
-    transition: none;
+
+
+
+@media screen and (max-width:550px){
+
+  #one .container h1, .mom{
+  
+    font-size: 3rem;
+    text-transform: capitalize;
+  }
+
+
+}
+
+
+@media screen and (max-width:400px){
+
+  #one .container h1, .mom{
+  
+    font-size: 2rem;
+    text-transform: capitalize;
   }
 }
 
