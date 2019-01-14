@@ -22,7 +22,9 @@ html{
 body {
 background: var(--mainWhite);
 color: var(--mainBlack);
-
+margin: 0;
+padding: 0;
+overflow: hidden;
 }
 #image{
   border-radius: 50%;
