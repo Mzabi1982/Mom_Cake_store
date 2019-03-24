@@ -570,6 +570,10 @@ outline: none !important;
     margin-right: 1rem;
   }
 
+  #nav{
+    display: none;
+  }
+
 
 }
 
