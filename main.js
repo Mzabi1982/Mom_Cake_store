@@ -36,27 +36,27 @@ window.sr = ScrollReveal();
 
 
   sr.reveal('#services div', {
-    duration: 2000,
+    duration: 1000,
     origin:'bottom',
     distance:'300px'
   
   });
 
   sr.reveal('.footer1,#row1', {
-    duration: 2000,
+    duration: 1000,
     origin:'left',
     distance:'300px'
   
   });
   sr.reveal('.footer2, #row2', {
-    duration: 2000,
+    duration: 1000,
     origin:'right',
     distance:'300px'
   
   });
 
   sr.reveal('#orders div,nav,#one .container', {
-    duration: 2000,
+    duration: 1000,
     origin:'top',
     distance:'300px'
   
