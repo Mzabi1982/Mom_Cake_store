@@ -614,4 +614,8 @@ form {
     font-size: 2rem;
     text-transform: capitalize;
   }
+
+  body {
+    overflow-x: hidden;
+  }
 }
